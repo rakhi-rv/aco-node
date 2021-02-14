@@ -1,6 +1,6 @@
 # Amazing Co Node Service
 
-#Introduction
+## Introduction
 
 We in Amazing Co need to model how our company is structured so we can do awesome stuff.
 We have a root node (only one) and several child nodes, each one with its own children as well. It's a tree-based structure.
@@ -25,16 +25,16 @@ Each node should have the following info:
 - c) who is the root node
 - d) the height of the node. In the above example, height(root) = 0 and height(a) == 1.
 
-#Installation
+## Installation
 This service requires Docker and docker-compose to be installed on your system. To start the service use :
 ```
 docker-compose up
 ```
 
-#Swagger-UI 
+## Swagger-UI 
 Url to open swagger-ui : http://localhost:8080/swagger-ui.html
 
-#Initial data Setup on application startup
+## Initial data Setup on application startup
 On application loads initial data on start-up to test the functionality. Each value here is the node identifier(id) 
 ```
   1
