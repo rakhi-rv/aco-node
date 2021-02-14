@@ -35,7 +35,7 @@ docker-compose up
 Url to open swagger-ui : http://localhost:8080/swagger-ui.html
 
 ## Initial data Setup on application startup
-On application loads initial data on start-up to test the functionality. Each value here is the node identifier(id) 
+Application loads initial data on start-up, provided to test the api functionality. Each value here is the node identifier(id) 
 ```
   1
 /   \
