@@ -1,0 +1,20 @@
+version: '3.1'
+
+services:
+  aco-node:
+    build: .
+    container_name: aco-node
+    ports:
+      - 8080:8080
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: aco
+      POSTGRES_USER: user
